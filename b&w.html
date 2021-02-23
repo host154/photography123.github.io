@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>A.H B&W</title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="b&w-stylr.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Shadows Into Light' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    
+</head>
+<body>
+    <div id="loader" class="preloader">
+        <div class="preload-content">
+        <div id="sonar-load">
+            <img src="loading-logo.gif" alt="loading">
+            <p>Loading...</p>
+        </div>
+        </div>
+    </div>
+
+ <script> 
+    document.onreadystatechange = function() { 
+        if (document.readyState !== "complete") { 
+            document.querySelector( 
+              "body").style.visibility = "hidden"; 
+            document.querySelector( 
+              "#loader").style.visibility = "visible"; 
+        } else { 
+            document.querySelector( 
+              "#loader").style.display = "none"; 
+            document.querySelector( 
+              "body").style.visibility = "visible"; 
+        } 
+    }; 
+</script>   
+  <div class="top" id="Home">
+
+    <div class="top" id="Home">
+        <nav class="col-12 navbar">
+            <div class="logo">
+            </div>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#landscape">landscape</a></li>
+                <li><a href="b&w.html">B&W</a></li>
+            </ul>
+        </nav>
+            <div class=" topimg">
+            <img src="IMG_0310.jpg" alt="pic">
+            </div>
+            <div class=" topheading">
+                <h2>Monochrome</h2>
+                <p><span>S</span>ince it was the favored photographic medium until the advent of color-supporting film,
+                     monochrome photography, particularly black and white images, also lend a classic patina,
+                    making images appear historic or even timeless.</p>
+            </div>
+    </div>
+    <div class="row">
+        <div class="col-12 gallery">
+            
+        </div>
+    </div>
+</body>
+</html>
+
